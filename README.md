@@ -1,4 +1,13 @@
 # ipv6 subnet calcuator
+
+Description:
+The Client accepts IPV6 and requsts IPV6 subnet calculation to the Server. 
+The Server calls the Main to calculate the subnet of requested IPV6.
+The Server writes the result into a file in server side.
+The Server sends the file to the Client.
+The Clinets writes the file in local side.
+
+
 Files:
 Server: Server.java, Server.class
 Client: Client.java, Client.class
@@ -9,7 +18,7 @@ Usage:
                 Server:
                 java Server
                
-                Client:
+                ent:
  
                 Java Client argument  ex) java Client 123:123::/40
  
